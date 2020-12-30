@@ -1,8 +1,8 @@
 /**
  * Accepts a single word string
  * Returns string where characters are in reverse order
- * @param {String} string
- * @return {String} 
+ * @param {string} string
+ * @return {string} 
  */
 function reverse(string){
     let chars = string.split('');
@@ -17,8 +17,8 @@ function reverse(string){
  * Accepts string of words 
  * Returns a string where characters of each word is reversed
  * Note: Words in provided string remain in order, but the characters are reversed
- * @param {String} string 
- * @return {String}
+ * @param {string} string 
+ * @return {string}
  */
 function reverseWords(string){
     let words = string.split(' ');

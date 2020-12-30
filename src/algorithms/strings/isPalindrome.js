@@ -1,6 +1,6 @@
 /**
- * @param {String} phrase 
- * @return {Boolean}
+ * @param {string} phrase 
+ * @return {boolean}
  */
 function isPalindrome(phrase){
     phrase = phrase.toLowerCase();
@@ -22,9 +22,10 @@ function isPalindrome(phrase){
 }
 
 /**
- * Accepts string and returns all valid characters within the string
- * @param {Array} charArray 
- * @return {Array} 
+ * Accepts array of characters
+ * Returns only valid characters within the array
+ * @param {array} charArray 
+ * @return {array} 
  */
 function getValidCharacters(charArray) {
     let validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
